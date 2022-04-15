@@ -658,6 +658,20 @@ li {
   list-style-type: none;
 }
 
+.touch-links {
+  padding-left: 0;
+}
+
+.touch-links > li, .touch-links  {
+  min-height: 48px;
+  min-width: 48px;
+  margin: 8px;
+}
+
+figcaption {
+  color: #000;
+}
+
 .container {
     max-width: 1000px;
 }
@@ -681,7 +695,7 @@ li {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
