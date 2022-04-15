@@ -658,14 +658,12 @@ li {
   list-style-type: none;
 }
 
-.touch-links {
-  padding-left: 0;
-}
-
-.touch-links > li, .touch-links  {
+.touch-links  {
   min-height: 48px;
   min-width: 48px;
   margin: 8px;
+  display: flex;
+  align-items: center;
 }
 
 figcaption {
