@@ -824,16 +824,46 @@ a[data-lightbox] {
   justify-content: center;
 }
 
-.col-sm-6 {
+.col-sm-6.project {
   max-width: 300px;
   margin: auto;
 }
 
 .contact-question {
   font-size: 22px;
-  color: #ff9e71!important;
-  padding: 0 20px!important;
+  color: #ff9e71 !important;
+  padding: 0 20px !important;
   position: relative;
+}
+
+.hero-contact p {
+  font-size: 18px;
+}
+
+.form-bloc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.address p {
+  font-size: 18px;
+  text-align: center;
+  line-height: 2;
+}
+
+.form-btn {
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 @media (max-width: 1024px) {
