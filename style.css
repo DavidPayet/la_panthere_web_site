@@ -661,10 +661,6 @@ p {
   margin: auto auto auto auto;
 }
 
-h1 {
-  color: #333333 !important;
-}
-
 h2 {
   font-size: 22px;
   line-height: 1.4em;
@@ -766,7 +762,7 @@ blockquote p {
 }
 
 .tc-white {
-  color: #F3976C !important;
+  color: #fff !important;
 }
 
 .btn-atomic-tangerine {
@@ -827,7 +823,7 @@ a[data-lightbox] {
 
 .contact-question {
   font-size: 22px;
-  color: #ff9e71 !important;
+  color: #fff !important;
   padding: 0 20px !important;
   position: relative;
 }
